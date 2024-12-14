@@ -18,7 +18,7 @@
             </div>
           </div>
 
-        <h4 class="card-title">Edit admin profile for all</h4>
+        <h4 class="card-title">Edit admin profile</h4>
         <form method="POST" action="{{ route('admin.profile.store') }}" class="forms-sample" 
         enctype="multipart/form-data">
         @csrf
